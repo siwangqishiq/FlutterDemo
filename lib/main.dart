@@ -86,10 +86,12 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
+  // 主页面 tab的切换
   void _switchTab(int newIndex){
     print("select index  = $newIndex");
     setState(() {
       mCurrentIndex = newIndex;
     });
   }
-}
+
+}//end class
